@@ -26,7 +26,7 @@ This is a read and write heavy application.
 ### High Level Design
 - System Design Diagram
 
-- API required
+- APIs required
     * URL shortening <br>
         To create a new short URL, a client sends a POST request which contains only 1 paramete : original long URL <br>
         POST - api/v1/data/shorten <br>
